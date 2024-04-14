@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Starting a PhD in Artificial Intelligence at [Sapienza University of Rome](https://www.uniroma1.it/en/)!
