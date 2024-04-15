@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /cv/ #/assets/pdf/example_pdf.pdf 
+permalink: /assets/pdf/example_pdf.pdf #/cv/ 
 title: cv
 nav: true
 nav_order: 5
