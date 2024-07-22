@@ -3,31 +3,69 @@
 
 @string{aps = {American Physical Society,}}
 
-
-@article{DBLP:journals/corr/abs-2401-14887,
+@article{DBLP:journals/corr/abs-2406-14972,
   author       = {Florin Cuconasu and
                   Giovanni Trappolini and
-                  Federico Siciliano and
-                  Simone Filice and
-                  Cesare Campagnano and
-                  Yoelle Maarek and
                   Nicola Tonellotto and
                   Fabrizio Silvestri},
-  title        = {The Power of Noise: Redefining Retrieval for {RAG} Systems},
+  title        = {A Tale of Trust and Accuracy: Base vs. Instruct LLMs in {RAG} Systems},
   journal      = {CoRR},
-  volume       = {abs/2401.14887},
+  volume       = {abs/2406.14972},
   year         = {2024},
-  url          = {https://doi.org/10.48550/arXiv.2401.14887},
-  doi          = {10.48550/ARXIV.2401.14887},
+  url          = {https://doi.org/10.48550/arXiv.2406.14972},
+  doi          = {10.48550/ARXIV.2406.14972},
   eprinttype    = {arXiv},
-  eprint       = {2401.14887},
-  timestamp    = {Tue, 06 Feb 2024 14:15:49 +0100},
-  biburl       = {https://dblp.org/rec/journals/corr/abs-2401-14887.bib},
+  eprint       = {2406.14972},
+  timestamp    = {Tue, 16 Jul 2024 16:17:52 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2406-14972.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
-  arxiv       = {2401.14887},
-  selected={true},
-  abbr={SIGIR}
+  arxiv       = {2406.14972},
 }
+
+@InProceedings{10.1007/978-3-031-62849-8_35,
+  author="Mucha, Wiktor
+  and Cuconasu, Florin
+  and Etori, Naome A.
+  and Kalokyri, Valia
+  and Trappolini, Giovanni",
+  editor="Miesenberger, Klaus
+  and Pe{\v{n}}{\'a}z, Petr
+  and Kobayashi, Makato",
+  title="TEXT2TASTE: A Versatile Egocentric Vision System for Intelligent Reading Assistance Using Large Language Model",
+  booktitle="Computers Helping People with Special Needs",
+  year="2024",
+  publisher="Springer Nature Switzerland",
+  address="Cham",
+  pages="285--291",
+  abstract="The ability to read, understand and find important information from written text is a critical skill in our daily lives for our independence, comfort and safety. However, a significant part of our society is affected by partial vision impairment, which leads to discomfort and dependency in daily activities. To address the limitations of this part of society, we propose an intelligent reading assistant based on smart glasses with embedded RGB cameras and a Large Language Model (LLM), whose functionality goes beyond corrective lenses. The video recorded from the egocentric perspective of a person wearing the glasses is processed to localise text information using object detection and optical character recognition methods. The LLM processes the data and allows the user to interact with the text and responds to a given query, thus extending the functionality of corrective lenses with the ability to find and summarize knowledge from the text. To evaluate our method, we create a chat-based application that allows the user to interact with the system. The evaluation is conducted in a real-world setting, such as reading menus in a restaurant, and involves four participants. The results show robust accuracy in text retrieval. The system not only provides accurate meal suggestions but also achieves high user satisfaction, highlighting the potential of smart glasses and LLMs in assisting people with special needs.",
+  isbn="978-3-031-62849-8",
+  selected="true",
+  abbr="ICCHP",
+  html="https://link.springer.com/chapter/10.1007/978-3-031-62849-8_35"
+}
+
+
+@inproceedings{10.1145/3626772.3657834,
+  author = {Cuconasu, Florin and Trappolini, Giovanni and Siciliano, Federico and Filice, Simone and Campagnano, Cesare and Maarek, Yoelle and Tonellotto, Nicola and Silvestri, Fabrizio},
+  title = {The Power of Noise: Redefining Retrieval for RAG Systems},
+  year = {2024},
+  isbn = {9798400704314},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3626772.3657834},
+  doi = {10.1145/3626772.3657834},
+  abstract = {Retrieval-Augmented Generation (RAG) has recently emerged as a method to extend beyond the pre-trained knowledge of Large Language Models by augmenting the original prompt with relevant passages or documents retrieved by an Information Retrieval (IR) system. RAG has become increasingly important for Generative AI solutions, especially in enterprise settings or in any domain in which knowledge is constantly refreshed and cannot be memorized in the LLM. We argue here that the retrieval component of RAG systems, be it dense or sparse, deserves increased attention from the research community, and accordingly, we conduct the first comprehensive and systematic examination of the retrieval strategy of RAG systems. We focus, in particular, on the type of passages IR systems within a RAG solution should retrieve. Our analysis considers multiple factors, such as the relevance of the passages included in the prompt context, their position, and their number. One counter-intuitive finding of this work is that the retriever's highest-scoring documents that are not directly relevant to the query (e.g., do not contain the answer) negatively impact the effectiveness of the LLM. Even more surprising, we discovered that adding random documents in the prompt improves the LLM accuracy by up to 35\%. These results highlight the need to investigate the appropriate strategies when integrating retrieval with LLMs, thereby laying the groundwork for future research in this area.},
+  booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages = {719–729},
+  numpages = {11},
+  keywords = {information retrieval, llm, rag},
+  location = {Washington DC, USA},
+  series = {SIGIR '24},
+  selected={true},
+  abbr={SIGIR},
+  html={https://doi.org/10.1145/3626772.3657834}
+}
+
 
 @inproceedings{DBLP:conf/aiia/BacciuCSSTT23,
   author       = {Andrea Bacciu and
