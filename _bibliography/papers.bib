@@ -20,6 +20,7 @@
   biburl       = {https://dblp.org/rec/journals/corr/abs-2406-14972.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   arxiv       = {2406.14972},
+  abstract = {Retrieval Augmented Generation (RAG) represents a significant advancement in artificial intelligence combining a retrieval phase with a generative phase, with the latter typically being powered by large language models (LLMs). The current common practices in RAG involve using "instructed" LLMs, which are fine-tuned with supervised training to enhance their ability to follow instructions and are aligned with human preferences using state-of-the-art techniques. Contrary to popular belief, our study demonstrates that base models outperform their instructed counterparts in RAG tasks by 20% on average under our experimental settings. This finding challenges the prevailing assumptions about the superiority of instructed LLMs in RAG applications. Further investigations reveal a more nuanced situation, questioning fundamental aspects of RAG and suggesting the need for broader discussions on the topic; or, as Fromm would have it, "Seldom is a glance at the statistics enough to understand the meaning of the figures".}
 }
 
 @InProceedings{10.1007/978-3-031-62849-8_35,
@@ -94,6 +95,50 @@
   biburl       = {https://dblp.org/rec/conf/aiia/BacciuCSSTT23.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org},
   selected={true},
-  pdf={https://ceur-ws.org/Vol-3537/paper4.pdf},
+  abstract={The emergence of large language models (LLMs) has revolutionized machine learning and related fields,
+showcasing remarkable abilities in comprehending, generating, and manipulating human language.
+However, their conventional usage through API-based text prompt submissions imposes certain limitations in terms of context constraints and external source availability. LLMs suffer from the problem of
+hallucinating text, and in the last year, several approaches have been devised to overcome this issue:
+adding an external Knowledge Base or an external memory consisting of embeddings stored and retrieved
+by vector databases. In all the current approaches, though, the main issues are: (i) they need to access
+an embedding model and then adapt it to the task they have to solve; (ii) in case they have to optimize
+the embedding model, they need to have access to the parameters of the LLM, which in many cases are
+“black boxes”. To address these challenges, we propose a novel framework called Reinforced Retrieval
+Augmented Machine Learning (RRAML). RRAML integrates the reasoning capabilities of LLMs with
+supporting information retrieved by a purpose-built retriever from a vast user-provided database. By
+leveraging recent advancements in reinforcement learning, our method effectively addresses several
+critical challenges. Firstly, it circumvents the need for accessing LLM gradients. Secondly, our method
+alleviates the burden of retraining LLMs for specific tasks, as it is often impractical or impossible due to
+restricted access to the model and the computational intensity involved. Additionally, we seamlessly link
+the retriever’s task with the reasoner, mitigating hallucinations and reducing irrelevant and potentially
+damaging retrieved documents. We believe that the research agenda outlined in this paper has the
+potential to profoundly impact the field of AI, democratizing access to and utilization of LLMs for a wide
+range of entities},
   abbr={AIxIA}
+}
+
+
+@inproceedings{DBLP:conf/iir/CuconasuTSFCMTS24,
+  author={Florin Cuconasu and Giovanni Trappolini and Federico Siciliano and Simone Filice and Cesare Campagnano and Yoelle Maarek and Nicola Tonellotto and Fabrizio Silvestri},
+  title={Rethinking Relevance: How Noise and Distractors Impact Retrieval-Augmented Generation},
+  year={2024},
+  cdate={1704067200000},
+  pages={95-98},
+  url={https://ceur-ws.org/Vol-3802/paper23.pdf},
+  booktitle={IIR},
+  crossref={conf/iir/2024},
+  abbr={IIR},
+}
+
+@misc{amiraz2025distractingeffectunderstandingirrelevant,
+      title={The Distracting Effect: Understanding Irrelevant Passages in RAG},
+      author={Chen Amiraz and Florin Cuconasu and Simone Filice and Zohar Karnin},
+      year={2025},
+      eprint={2505.06914},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.06914},
+      abbr={ACL},
+      selected={true},
+      arxiv={2505.06914},
 }
