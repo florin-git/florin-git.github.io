@@ -17,7 +17,7 @@ social: true # includes social icons at the bottom of the page
 Hello! :wave:
 
 {:.justified-text}
-I am a **first-year PhD student** in Artificial Intelligence at [Sapienza University of Rome](https://www.uniroma1.it/en/), working under the guidance of Professor [Fabrizio Silvestri](https://sites.google.com/diag.uniroma1.it/fabriziosilvestri) and collaborating with the [RSTLess group](https://rstless.it/). My doctoral studies are supported by a research grant from the [National PhD Program in Artificial Intelligence](https://www.phd-ai.it/en/359-2/).
+I am a **second-year PhD student** in Artificial Intelligence at [Sapienza University of Rome](https://www.uniroma1.it/en/), working under the guidance of Professor [Fabrizio Silvestri](https://sites.google.com/diag.uniroma1.it/fabriziosilvestri) and collaborating with the [RSTLess group](https://rstless.it/). My doctoral studies are supported by a research grant from the [National PhD Program in Artificial Intelligence](https://www.phd-ai.it/en/359-2/).
 
 {:.justified-text}
 My research interests are centered around **Natural Language Processing** and **Information Retrieval**, with a current deep focus on **Retrieval Augmented Generation**. My academic journey began at the same university, where I earned my bachelor's degree in Information Engineering and my master’s degree in Engineering in Computer Science, both with laude.

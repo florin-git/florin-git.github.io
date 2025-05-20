@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Starting a research internship at [Technology Innovation Institute](https://www.tii.ae/), focusing on Retrieval-Augmented Generation!
+Starting a research internship at [Technology Innovation Institute](https://www.tii.ae/), focusing on Retrieval Augmented Generation!
