@@ -3,6 +3,56 @@
 
 @string{aps = {American Physical Society,}}
 
+@misc{amiraz2025distractingeffectunderstandingirrelevant,
+      title={The Distracting Effect: Understanding Irrelevant Passages in RAG},
+      author={Chen Amiraz and Florin Cuconasu and Simone Filice and Zohar Karnin},
+      year={2025},
+      eprint={2505.06914},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2505.06914},
+      abstract={A well-known issue with Retrieval Augmented Generation (RAG) is that retrieved passages that are irrelevant to the query sometimes distract the answer-generating LLM, causing it to provide an incorrect response. In this paper, we shed light on this core issue and formulate the distracting effect of a passage w.r.t. a query (and an LLM). We provide a quantifiable measure of the distracting effect of a passage and demonstrate its robustness across LLMs. Our research introduces novel methods for identifying and using hard distracting passages to improve RAG systems. By fine-tuning LLMs with these carefully selected distracting passages, we achieve up to a 7.5% increase in answering accuracy compared to counterparts fine-tuned on conventional RAG datasets. Our contribution is two-fold: first, we move beyond the simple binary classification of irrelevant passages as either completely unrelated vs. distracting, and second, we develop and analyze multiple methods for finding hard distracting passages. To our knowledge, no other research has provided such a comprehensive framework for identifying and utilizing hard distracting passages.},
+      abbr={ACL},
+      selected={true},
+      arxiv={2505.06914},
+}
+
+
+@inproceedings{10.1145/3626772.3657834,
+  author = {Cuconasu, Florin and Trappolini, Giovanni and Siciliano, Federico and Filice, Simone and Campagnano, Cesare and Maarek, Yoelle and Tonellotto, Nicola and Silvestri, Fabrizio},
+  title = {The Power of Noise: Redefining Retrieval for RAG Systems},
+  year = {2024},
+  isbn = {9798400704314},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3626772.3657834},
+  doi = {10.1145/3626772.3657834},
+  abstract = {Retrieval-Augmented Generation (RAG) has recently emerged as a method to extend beyond the pre-trained knowledge of Large Language Models by augmenting the original prompt with relevant passages or documents retrieved by an Information Retrieval (IR) system. RAG has become increasingly important for Generative AI solutions, especially in enterprise settings or in any domain in which knowledge is constantly refreshed and cannot be memorized in the LLM. We argue here that the retrieval component of RAG systems, be it dense or sparse, deserves increased attention from the research community, and accordingly, we conduct the first comprehensive and systematic examination of the retrieval strategy of RAG systems. We focus, in particular, on the type of passages IR systems within a RAG solution should retrieve. Our analysis considers multiple factors, such as the relevance of the passages included in the prompt context, their position, and their number. One counter-intuitive finding of this work is that the retriever's highest-scoring documents that are not directly relevant to the query (e.g., do not contain the answer) negatively impact the effectiveness of the LLM. Even more surprising, we discovered that adding random documents in the prompt improves the LLM accuracy by up to 35\%. These results highlight the need to investigate the appropriate strategies when integrating retrieval with LLMs, thereby laying the groundwork for future research in this area.},
+  booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages = {719–729},
+  numpages = {11},
+  keywords = {information retrieval, llm, rag},
+  location = {Washington DC, USA},
+  series = {SIGIR '24},
+  selected={true},
+  abbr={SIGIR},
+  html={https://doi.org/10.1145/3626772.3657834}
+}
+
+@inproceedings{DBLP:conf/iir/CuconasuTSFCMTS24,
+  author={Florin Cuconasu and Giovanni Trappolini and Federico Siciliano and Simone Filice and Cesare Campagnano and Yoelle Maarek and Nicola Tonellotto and Fabrizio Silvestri},
+  title={Rethinking Relevance: How Noise and Distractors Impact Retrieval-Augmented Generation},
+  year={2024},
+  cdate={1704067200000},
+  pages={95-98},
+  url={https://ceur-ws.org/Vol-3802/paper23.pdf},
+  html={https://ceur-ws.org/Vol-3802/paper23.pdf},
+  abstract={Retrieval-Augmented Generation (RAG) systems enhance the performance of Large Language Models (LLMs) by incorporating external information fetched from a retriever component. While traditional approaches prioritize retrieving “relevant” documents, our research reveals that these documents can be a double-edged sword. We explore the counterintuitive benefits of integrating noisy, non-relevant documents into the retrieval process. In particular, we conduct an analysis of how different types of retrieved documents—relevant, distracting, and random—affect the overall effectiveness of RAG systems. Our findings reveal that the inclusion of random documents, often perceived as noise, can significantly improve LLM accuracy, with gains up to 35%. Conversely, highly scored but non-relevant documents from the retriever negatively impact performance. These insights challenge conventional retrieval strategies and suggest a paradigm shift towards rethinking information retrieval for neural models.},
+  booktitle={IIR},
+  crossref={conf/iir/2024},
+  abbr={IIR},
+}
+
 @article{DBLP:journals/corr/abs-2406-14972,
   author       = {Florin Cuconasu and
                   Giovanni Trappolini and
@@ -43,28 +93,6 @@
   selected="true",
   abbr="ICCHP",
   html="https://link.springer.com/chapter/10.1007/978-3-031-62849-8_35"
-}
-
-
-@inproceedings{10.1145/3626772.3657834,
-  author = {Cuconasu, Florin and Trappolini, Giovanni and Siciliano, Federico and Filice, Simone and Campagnano, Cesare and Maarek, Yoelle and Tonellotto, Nicola and Silvestri, Fabrizio},
-  title = {The Power of Noise: Redefining Retrieval for RAG Systems},
-  year = {2024},
-  isbn = {9798400704314},
-  publisher = {Association for Computing Machinery},
-  address = {New York, NY, USA},
-  url = {https://doi.org/10.1145/3626772.3657834},
-  doi = {10.1145/3626772.3657834},
-  abstract = {Retrieval-Augmented Generation (RAG) has recently emerged as a method to extend beyond the pre-trained knowledge of Large Language Models by augmenting the original prompt with relevant passages or documents retrieved by an Information Retrieval (IR) system. RAG has become increasingly important for Generative AI solutions, especially in enterprise settings or in any domain in which knowledge is constantly refreshed and cannot be memorized in the LLM. We argue here that the retrieval component of RAG systems, be it dense or sparse, deserves increased attention from the research community, and accordingly, we conduct the first comprehensive and systematic examination of the retrieval strategy of RAG systems. We focus, in particular, on the type of passages IR systems within a RAG solution should retrieve. Our analysis considers multiple factors, such as the relevance of the passages included in the prompt context, their position, and their number. One counter-intuitive finding of this work is that the retriever's highest-scoring documents that are not directly relevant to the query (e.g., do not contain the answer) negatively impact the effectiveness of the LLM. Even more surprising, we discovered that adding random documents in the prompt improves the LLM accuracy by up to 35\%. These results highlight the need to investigate the appropriate strategies when integrating retrieval with LLMs, thereby laying the groundwork for future research in this area.},
-  booktitle = {Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
-  pages = {719–729},
-  numpages = {11},
-  keywords = {information retrieval, llm, rag},
-  location = {Washington DC, USA},
-  series = {SIGIR '24},
-  selected={true},
-  abbr={SIGIR},
-  html={https://doi.org/10.1145/3626772.3657834}
 }
 
 
@@ -118,31 +146,3 @@ range of entities},
   abbr={AIxIA}
 }
 
-
-@inproceedings{DBLP:conf/iir/CuconasuTSFCMTS24,
-  author={Florin Cuconasu and Giovanni Trappolini and Federico Siciliano and Simone Filice and Cesare Campagnano and Yoelle Maarek and Nicola Tonellotto and Fabrizio Silvestri},
-  title={Rethinking Relevance: How Noise and Distractors Impact Retrieval-Augmented Generation},
-  year={2024},
-  cdate={1704067200000},
-  pages={95-98},
-  url={https://ceur-ws.org/Vol-3802/paper23.pdf},
-  html={https://ceur-ws.org/Vol-3802/paper23.pdf},
-  abstract={Retrieval-Augmented Generation (RAG) systems enhance the performance of Large Language Models (LLMs) by incorporating external information fetched from a retriever component. While traditional approaches prioritize retrieving “relevant” documents, our research reveals that these documents can be a double-edged sword. We explore the counterintuitive benefits of integrating noisy, non-relevant documents into the retrieval process. In particular, we conduct an analysis of how different types of retrieved documents—relevant, distracting, and random—affect the overall effectiveness of RAG systems. Our findings reveal that the inclusion of random documents, often perceived as noise, can significantly improve LLM accuracy, with gains up to 35%. Conversely, highly scored but non-relevant documents from the retriever negatively impact performance. These insights challenge conventional retrieval strategies and suggest a paradigm shift towards rethinking information retrieval for neural models.},
-  booktitle={IIR},
-  crossref={conf/iir/2024},
-  abbr={IIR},
-}
-
-@misc{amiraz2025distractingeffectunderstandingirrelevant,
-      title={The Distracting Effect: Understanding Irrelevant Passages in RAG},
-      author={Chen Amiraz and Florin Cuconasu and Simone Filice and Zohar Karnin},
-      year={2025},
-      eprint={2505.06914},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.06914},
-      abstract={A well-known issue with Retrieval Augmented Generation (RAG) is that retrieved passages that are irrelevant to the query sometimes distract the answer-generating LLM, causing it to provide an incorrect response. In this paper, we shed light on this core issue and formulate the distracting effect of a passage w.r.t. a query (and an LLM). We provide a quantifiable measure of the distracting effect of a passage and demonstrate its robustness across LLMs. Our research introduces novel methods for identifying and using hard distracting passages to improve RAG systems. By fine-tuning LLMs with these carefully selected distracting passages, we achieve up to a 7.5% increase in answering accuracy compared to counterparts fine-tuned on conventional RAG datasets. Our contribution is two-fold: first, we move beyond the simple binary classification of irrelevant passages as either completely unrelated vs. distracting, and second, we develop and analyze multiple methods for finding hard distracting passages. To our knowledge, no other research has provided such a comprehensive framework for identifying and utilizing hard distracting passages.},
-      abbr={ACL},
-      selected={true},
-      arxiv={2505.06914},
-}
