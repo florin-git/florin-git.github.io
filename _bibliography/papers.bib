@@ -3,18 +3,55 @@
 
 @string{aps = {American Physical Society,}}
 
-@misc{amiraz2025distractingeffectunderstandingirrelevant,
-      title={The Distracting Effect: Understanding Irrelevant Passages in RAG},
-      author={Chen Amiraz and Florin Cuconasu and Simone Filice and Zohar Karnin},
+
+@misc{cuconasu2025ragsystemssufferpositional,
+      title={Do RAG Systems Suffer From Positional Bias?},
+      author={Florin Cuconasu and Simone Filice and Guy Horowitz and Yoelle Maarek and Fabrizio Silvestri},
       year={2025},
-      eprint={2505.06914},
+      eprint={2505.15561},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.06914},
-      abstract={A well-known issue with Retrieval Augmented Generation (RAG) is that retrieved passages that are irrelevant to the query sometimes distract the answer-generating LLM, causing it to provide an incorrect response. In this paper, we shed light on this core issue and formulate the distracting effect of a passage w.r.t. a query (and an LLM). We provide a quantifiable measure of the distracting effect of a passage and demonstrate its robustness across LLMs. Our research introduces novel methods for identifying and using hard distracting passages to improve RAG systems. By fine-tuning LLMs with these carefully selected distracting passages, we achieve up to a 7.5% increase in answering accuracy compared to counterparts fine-tuned on conventional RAG datasets. Our contribution is two-fold: first, we move beyond the simple binary classification of irrelevant passages as either completely unrelated vs. distracting, and second, we develop and analyze multiple methods for finding hard distracting passages. To our knowledge, no other research has provided such a comprehensive framework for identifying and utilizing hard distracting passages.},
-      abbr={ACL},
+      url={https://arxiv.org/abs/2505.15561},
+      abstract={Retrieval Augmented Generation enhances LLM accuracy by adding passages retrieved from an external corpus to the LLM prompt. This paper investigates how positional bias - the tendency of LLMs to weight information differently based on its position in the prompt - affects not only the LLM's capability to capitalize on relevant passages, but also its susceptibility to distracting passages. Through extensive experiments on three benchmarks, we show how state-of-the-art retrieval pipelines, while attempting to retrieve relevant passages, systematically bring highly distracting ones to the top ranks, with over 60% of queries containing at least one highly distracting passage among the top-10 retrieved passages. As a result, the impact of the LLM positional bias, which in controlled settings is often reported as very prominent by related works, is actually marginal in real scenarios since both relevant and distracting passages are, in turn, penalized. Indeed, our findings reveal that sophisticated strategies that attempt to rearrange the passages based on LLM positional preferences do not perform better than random shuffling.},
+      abbr={EMNLP},
       selected={true},
-      arxiv={2505.06914},
+      arxiv={2505.15561},
+}
+
+@inproceedings{amiraz-etal-2025-distracting,
+    title = "The Distracting Effect: Understanding Irrelevant Passages in {RAG}",
+    author = "Amiraz, Chen  and
+      Cuconasu, Florin  and
+      Filice, Simone  and
+      Karnin, Zohar",
+    editor = "Che, Wanxiang  and
+      Nabende, Joyce  and
+      Shutova, Ekaterina  and
+      Pilehvar, Mohammad Taher",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-long.892/",
+    doi = "10.18653/v1/2025.acl-long.892",
+    pages = "18228--18258",
+    ISBN = "979-8-89176-251-0",
+    abstract = "A well-known issue with Retrieval Augmented Generation (RAG) is that retrieved passages that are irrelevant to the query sometimes distract the answer-generating LLM, causing it to provide an incorrect response. In this paper, we shed light on this core issue and formulate the distracting effect of a passage w.r.t. a query (and an LLM). We provide a quantifiable measure of the distracting effect of a passage and demonstrate its robustness across LLMs. Our research introduces novel methods for identifying and using hard distracting passages to improve RAG systems. By fine-tuning LLMs with these carefully selected distracting passages, we achieve up to a 7.5{\%} increase in answering accuracy compared to counterparts fine-tuned on conventional RAG datasets. Our contribution is two-fold: first, we move beyond the simple binary classification of irrelevant passages as either completely unrelated vs. distracting, and second, we develop and analyze multiple methods for finding hard distracting passages. To our knowledge, no other research has provided such a comprehensive framework for identifying and utilizing hard distracting passages.",
+    abbr={ACL},
+    selected={true},
+    html={https://aclanthology.org/2025.acl-long.892/}
+}
+
+@inproceedings{DBLP:conf/iir/CuconasuTSFCMTS24,
+  author={Chen Amiraz and Florin Cuconasu and Simone Filice and Zohar Karnin},
+  title={Beyond Relevance: Quantifying Distraction of Irrelevant Passages in RAG},
+  year={2025},
+  url={https://ceur-ws.org/Vol-4026/paper7.pdf},
+  html={https://ceur-ws.org/Vol-4026/paper7.pdf},
+  abstract={Retrieval Augmented Generation (RAG) systems often struggle with irrelevant passages that mislead LLMs during answer generation. This work introduces a comprehensive framework for quantifying and understanding the distracting nature of such passages. We propose a novel metric to measure passage-level distraction effects, demonstrating its robustness across different models. Our methodology combines retrieval-based approaches with controlled synthetic generation techniques that create distracting content spanning multiple categories. Through experimental validation on standard question-answering benchmarks, we show that passages with higher distraction scores consistently degrade model effectiveness, even when relevant content is present. Leveraging this framework, we construct an enhanced training dataset featuring systematically curated distracting passages. When fine-tuned on this dataset, LLMs demonstrate substantial improvements, achieving up to 7.5% accuracy gains over baselines trained on standard RAG data. Our contributions provide both theoretical insights into distraction mechanisms in RAG and practical solutions for developing more robust retrieval-augmented language models.},
+  booktitle={Proceedings of the 15th Italian Information Retrieval Workshop (IIR 2025)},
+  crossref={conf/iir/2025},
+  abbr={IIR}
 }
 
 
@@ -48,9 +85,9 @@
   url={https://ceur-ws.org/Vol-3802/paper23.pdf},
   html={https://ceur-ws.org/Vol-3802/paper23.pdf},
   abstract={Retrieval-Augmented Generation (RAG) systems enhance the performance of Large Language Models (LLMs) by incorporating external information fetched from a retriever component. While traditional approaches prioritize retrieving “relevant” documents, our research reveals that these documents can be a double-edged sword. We explore the counterintuitive benefits of integrating noisy, non-relevant documents into the retrieval process. In particular, we conduct an analysis of how different types of retrieved documents—relevant, distracting, and random—affect the overall effectiveness of RAG systems. Our findings reveal that the inclusion of random documents, often perceived as noise, can significantly improve LLM accuracy, with gains up to 35%. Conversely, highly scored but non-relevant documents from the retriever negatively impact performance. These insights challenge conventional retrieval strategies and suggest a paradigm shift towards rethinking information retrieval for neural models.},
-  booktitle={IIR},
+  booktitle={Proceedings of the 14th Italian Information Retrieval Workshop (IIR 2024)},
   crossref={conf/iir/2024},
-  abbr={IIR},
+  abbr={IIR}
 }
 
 @article{DBLP:journals/corr/abs-2406-14972,
@@ -90,7 +127,7 @@
   pages="285--291",
   abstract="The ability to read, understand and find important information from written text is a critical skill in our daily lives for our independence, comfort and safety. However, a significant part of our society is affected by partial vision impairment, which leads to discomfort and dependency in daily activities. To address the limitations of this part of society, we propose an intelligent reading assistant based on smart glasses with embedded RGB cameras and a Large Language Model (LLM), whose functionality goes beyond corrective lenses. The video recorded from the egocentric perspective of a person wearing the glasses is processed to localise text information using object detection and optical character recognition methods. The LLM processes the data and allows the user to interact with the text and responds to a given query, thus extending the functionality of corrective lenses with the ability to find and summarize knowledge from the text. To evaluate our method, we create a chat-based application that allows the user to interact with the system. The evaluation is conducted in a real-world setting, such as reading menus in a restaurant, and involves four participants. The results show robust accuracy in text retrieval. The system not only provides accurate meal suggestions but also achieves high user satisfaction, highlighting the potential of smart glasses and LLMs in assisting people with special needs.",
   isbn="978-3-031-62849-8",
-  selected="true",
+  selected="false",
   abbr="ICCHP",
   html="https://link.springer.com/chapter/10.1007/978-3-031-62849-8_35"
 }

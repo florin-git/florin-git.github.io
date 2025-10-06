@@ -37,6 +37,16 @@ a.btncv:hover {
  * CV TIME_TABLE styles
  *****************************/
 
+/* Adjust date positioning to be more left-aligned */
+.col-xs-2.cl-sm-2.col-md-2.text-center {
+  text-align: left !important;
+  padding-left: 0 !important;
+}
+
+.badge.font-weight-bold.danger-color-dark {
+  margin-left: 0 !important;
+}
+
 p.location {
   font-size: 0.7rem;
   white-space: nowrap;

@@ -1,97 +1,113 @@
-- title: General Information
+- title: General Info
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+    - name: Name
+      value: Florin Cuconasu
+    - name: Email
+      value: <a href="mailto:florin.cuconasu10@gmail.com">florin.cuconasu10@gmail.com</a>
     - name: Languages
-      value: English, German
+      value: English (Proficient), Italian (Native), Romanian (Intermediate)
+    - name: Location
+      value: Rome, Italy
+    - name: Research Interests
+      value: LLMs, Agentic AI, RAG
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD in AI &mdash; Advised by <a href="https://sites.google.com/diag.uniroma1.it/fabriziosilvestri/home?authuser=0">Fabrizio Silvestri</a>
+      institution: Sapienza University of Rome
+      location: Rome, Italy
+      year: Nov 2023 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - Researching the future of Agentic RAG where AI systems consume and use knowledge instead of humans.
+        - Received Best Poster Award at Google's <a href="https://www.m2lschool.org/past-editions/m2l-2024-italy/posters-2024#h.fsl0vonompbc">M2L Summer School 2024</a>.
+        # - title: Description 3.
+        #   contents:
+        #     - Sub-description 1.
+        #     - Sub-description 2.
+    - title: Master's Degree in Engineering in Computer Science
+      institution: Sapienza University of Rome
+      location: Rome, Italy
+      year: Sep 2021 - Oct 2023
       description:
-        - Description 1.
-        - Description 2.
+        - "Final Grade: 110/110 cum laude and Honors Program"
+        - "Honors Program: Participated in additional research activities for students with excellent grades (top 5%), working on research projects in Retrieval Augmentation and Reinforcement Learning."
+    - title: Bachelor's Degree in Information Engineering
+      institution: Sapienza University of Rome
+      location: Rome, Italy
+      year: Sep 2018 - Oct 2021
+      description:
+        - "Final Grade: 110/110 cum laude and Honorable Mention (top 1% of graduating class)"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern &mdash; Advised by <a href="https://scholar.google.com/citations?user=vKwRgcAAAAAJ">Simone Filice</a> and <a href="https://www.yoelle.com/">Yoelle Maarek</a>
+      institution: Technology Innovation Institute
+      year: Oct 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Working on Retrieval Augmented Generation.
+
+    - title: Teaching Assistant
+      institution: Sapienza University of Rome
+      location: Rome, Italy
+      year: Feb 2024 - May 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Taught 12 hours of lectures to 100+ students in a Programming Techniques course.
+        - Collaborated with the lead professor to design and develop programming exercises and exam materials.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Workshop &mdash; Personal Aria and Digital Data Timeline
+      institution: Meta
+      location: Menlo Park, CA
+      year: Dec 2023
       description:
+        - Participated in a three-day workshop at Meta HQ, testing <a href="https://www.projectaria.com/">Aria glasses</a> and presenting a tutorial on their multimodal integration with personal user data.
+        - Developed a ChatGPT-based chatbot for personalized food recommendations as part of a 5-person hackathon team.
+        - Designed a RAG system for Aria-recorded menus and user preferences, resulting in a co-authored <a href="https://link.springer.com/chapter/10.1007/978-3-031-62849-8_35">paper</a>.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: E-commerce &mdash; Microservices Architecture
+      year: 2023
+      maindescription: <em>React, HTML5, CSS3, Django, PostgreSQL, Docker, Scrum, Jira</em>
+      description:
+      - Led a team of 5 to build a microservices-based e-commerce application.
+      - Designed REST APIs in Django for efficient communication between microservices.
+      - Conducted Scrum meetings and managed user stories and project goals on Jira.
 
-- title: Honors and Awards
+    - title: TV Movie Analysis &mdash; Interactive Visualization Tool
+      year: 2023
+      maindescription: <em>D3.js, Pandas, SciPy, Sklearn</em>
+      description:
+      - Led a team of 3 to design and develop an interactive visualization tool for analyzing TV movie scheduling.
+      - Integrated data from different sources, including web scraping, resulting in a dataset of 100k records.
+      - Designed customized distance functions for Multidimensional Scaling (MDS) to plot data points in 2D.
+
+- title: Talks and Events
   type: time_table
   contents:
-    - year: 1921
+    - year: Jul 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - "Gave a talk at the Glasgow IR Seminar titled \"Beyond Relevance: Understanding the Distracting Effect of Retrieved Passages in RAG Systems\"."
+    - year: Jan 2025
       items:
-        - Max Planck Medal
+        - Participated in the first hackathon by <a href="https://datapizza.tech/">Datapizza</a> at IBM Studios, working on Agentic AI applications.
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items:
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

@@ -18,7 +18,8 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://florin-git.github.io/assets/pdf/cuconasu_resume.pdf</loc>
+  <!-- <loc>https://florin-git.github.io/assets/pdf/cuconasu_resume.pdf</loc> -->
+  <loc>https://florin-git.github.io/cv/</loc>
   <lastmod>2024-07-22T09:04:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
