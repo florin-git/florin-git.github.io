@@ -94,6 +94,11 @@
     - year: Jan 2025
       items:
         - Participated in the first hackathon by <a href="https://datapizza.tech/">Datapizza</a> at IBM Studios, working on Agentic AI applications.
+    - year: Jul 2024
+      items:
+        - Interviewed by <a href="https://www.zeta-alpha.com/">Zeta Alpha</a> about our paper "<a href="https://dl.acm.org/doi/10.1145/3626772.3657834">The Power of Noise</a>". Check out the video on <a href="https://www.youtube.com/watch?v=YH4GMTQ_owA">YouTube</a>.
+
+
 
 # - title: Academic Interests
 #   type: nested_list

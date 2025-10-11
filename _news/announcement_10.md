@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Happy to share that my second work done during my internship at TII has been accepted at EMNLP 2025 (Main Conference). Check the ArXiv here [Do RAG Systems Suffer From Positional Bias?](https://arxiv.org/abs/2505.15561).
+Happy to share that my second work done during my internship at TII has been accepted at EMNLP 2025 (Main Conference). Check the ArXiv here [Do RAG Systems Really Suffer From Positional Bias?](https://arxiv.org/abs/2505.15561).
