@@ -45,10 +45,13 @@
   contents:
     - title: Research Intern &mdash; Advised by <a href="https://scholar.google.com/citations?user=vKwRgcAAAAAJ">Simone Filice</a> and <a href="https://www.yoelle.com/">Yoelle Maarek</a>
       institution: Technology Innovation Institute
-      year: Oct 2024 - Present
+      year: Oct 2024 - Dec 2025
       description:
-        - Working on Retrieval Augmented Generation.
-
+        - Researched noise-robustness in RAG, resulting in 4 top-tier publications (<a href="https://aclanthology.org/2025.acl-long.892.pdf">ACL</a>, <a href="https://aclanthology.org/2025.emnlp-main.1422.pdf">EMNLP</a>, <a href="https://arxiv.org/pdf/2510.21440">EACL</a>, Q1 journal in review) and 1 workshop paper at <a href="https://ceur-ws.org/Vol-4026/paper7.pdf">IIR</a>.
+        - Developed RAG evaluation metrics for AI agent consumers, improving accuracy correlation by up to 36% (<a href="https://arxiv.org/pdf/2510.21440">EACL</a>).
+        - Collaborated with senior researchers on noise-robust LLM finetuning, achieving 7.5% improvement (<a href="https://aclanthology.org/2025.acl-long.892.pdf">ACL</a>).
+        - Owned full RAG pipeline processing 30M+ docs with sparse/dense retrieval and context engineering strategies.
+        - Trained 10+ encoder/decoder-based re-rankers (500M-4B parameters) via multi-GPU setup, using SOTA and custom IR loss functions.
     - title: Teaching Assistant
       institution: Sapienza University of Rome
       location: Rome, Italy
@@ -62,7 +65,7 @@
       location: Menlo Park, CA
       year: Dec 2023
       description:
-        - Participated in a three-day workshop at Meta HQ, testing <a href="https://www.projectaria.com/">Aria glasses</a> and presenting a tutorial on their multimodal integration with personal user data.
+        - Participated in a three-day workshop at Meta HQ, testing <a href="https://www.projectaria.com/">Aria glasses</a> and selected to present a tutorial on their multimodal integration with personal user data.
         - Developed a ChatGPT-based chatbot for personalized food recommendations as part of a 5-person hackathon team.
         - Designed a RAG system for Aria-recorded menus and user preferences, resulting in a co-authored <a href="https://link.springer.com/chapter/10.1007/978-3-031-62849-8_35">paper</a>.
 
