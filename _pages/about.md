@@ -17,13 +17,10 @@ social: true # includes social icons at the bottom of the page
 Ciao! :wave:
 
 {:.justified-text}
-I am a **last-year PhD student** in Artificial Intelligence at [Sapienza University of Rome](https://www.uniroma1.it/en/), working under the guidance of Professor [Fabrizio Silvestri](https://sites.google.com/diag.uniroma1.it/fabriziosilvestri) and collaborating with the [RSTLess group](https://rstless.it/). My doctoral studies are supported by a research grant from the [National PhD Program in Artificial Intelligence](https://www.phd-ai.it/en/359-2/).
+I am a **PhD candidate in Artificial Intelligence** at [Sapienza University of Rome](https://www.uniroma1.it/en/), advised by Professor [Fabrizio Silvestri](https://fabsilvestri.github.io) and funded by the National PhD Program in Artificial Intelligence.
 
 {:.justified-text}
-My research interests are centered around **Natural Language Processing** and **Information Retrieval**, with a current deep focus on **Retrieval Augmented Generation**. My academic journey began at the same university, where I earned my bachelor's degree in Information Engineering and my master’s degree in Engineering in Computer Science, both with laude.
+I build and evaluate LLM-based systems at the intersection of **Natural Language Processing** and **Information Retrieval**, with a current focus on **Retrieval Augmented Generation** and **AI Agents**. I study how LLMs consume retrieved information: which retrieved content helps or hurts, and how retrieval should be evaluated when the reader is an AI model rather than a human.
 
 {:.justified-text}
-Driven by a fascination with the experimental nature of Machine Learning, I view each challenge as a new opportunity to innovate and push the boundaries of model performance. I believe that every dataset tells a story and every model presents a puzzle waiting to be solved :jigsaw:.
-
-{:.justified-text}
-Outside of my academic life, I enjoy staying active through calisthenics :man_cartwheeling: and swimming :swimming_man:.
+Outside of work, I enjoy staying active through calisthenics :man_cartwheeling: and swimming :swimming_man:.

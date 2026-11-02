@@ -10,17 +10,18 @@
     - name: Location
       value: Rome, Italy
     - name: Research Interests
-      value: LLMs, Agentic AI, RAG
+      value: LLMs, AI Agents, RAG
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD in AI &mdash; Advised by <a href="https://sites.google.com/diag.uniroma1.it/fabriziosilvestri/home?authuser=0">Fabrizio Silvestri</a>
+    - title: PhD in AI &mdash; Advised by <a href="https://fabsilvestri.github.io/">Fabrizio Silvestri</a>
       institution: Sapienza University of Rome
       location: Rome, Italy
-      year: Nov 2023 - Present
+      year: Nov 2023 - (Jan 2027)
       description:
-        - Researching the future of Agentic RAG where AI systems consume and use knowledge instead of humans.
+        - Researching how RAG systems should evolve when AI agents, rather than humans, consume and use information.
+        # - Researching the future of Agentic RAG where AI systems consume and use knowledge instead of humans.
         - Received Best Poster Award at Google's <a href="https://www.m2lschool.org/past-editions/m2l-2024-italy/posters-2024#h.fsl0vonompbc">M2L Summer School 2024</a>.
         # - title: Description 3.
         #   contents:
@@ -32,7 +33,7 @@
       year: Sep 2021 - Oct 2023
       description:
         - "Final Grade: 110/110 cum laude and Honors Program"
-        - "Honors Program: Participated in additional research activities for students with excellent grades (top 5%), working on research projects in Retrieval Augmentation and Reinforcement Learning."
+        - "Honors Program: Participated in additional research activities for students with excellent grades (top 1%), working on research projects in Retrieval Augmentation and Reinforcement Learning."
     - title: Bachelor's Degree in Information Engineering
       institution: Sapienza University of Rome
       location: Rome, Italy
@@ -43,15 +44,26 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Applied Scientist Intern &mdash; Advised by <a href="https://www.microsoft.com/en-us/research/people/moalqudah/">Mohammad Alqudah</a> and <a href="https://scholar.google.com/citations?user=-BlOjJcAAAAJ">Henry Lai</a>
+      institution: Microsoft
+      location: Redmond, WA, USA
+      year: Jun 2026 - Aug 2026
+      description:
+        - Researched how self-evolving agents can learn what to improve from multi-user conversations over time.
+        - Developed a shortfall-detection framework with 38% higher recall than the existing agentic baseline on production data.
+        - Built a pipeline simulating 100+ group conversations to uncover agent shortcomings and unmet user needs.
+
     - title: Research Intern &mdash; Advised by <a href="https://scholar.google.com/citations?user=vKwRgcAAAAAJ">Simone Filice</a> and <a href="https://www.yoelle.com/">Yoelle Maarek</a>
       institution: Technology Innovation Institute
+      location: Remote
       year: Oct 2024 - Dec 2025
       description:
-        - Researched noise-robustness in RAG, resulting in 4 top-tier publications (<a href="https://aclanthology.org/2025.acl-long.892.pdf">ACL</a>, <a href="https://aclanthology.org/2025.emnlp-main.1422.pdf">EMNLP</a>, <a href="https://arxiv.org/pdf/2510.21440">EACL</a>, Q1 journal in review) and 1 workshop paper at <a href="https://ceur-ws.org/Vol-4026/paper7.pdf">IIR</a>.
-        - Developed RAG evaluation metrics for AI agent consumers, improving accuracy correlation by up to 36% (<a href="https://arxiv.org/pdf/2510.21440">EACL</a>).
+        - Researched noise-robustness in RAG, resulting in 4 top-tier publications (<a href="https://aclanthology.org/2025.acl-long.892.pdf">ACL</a>, <a href="https://aclanthology.org/2025.emnlp-main.1422.pdf">EMNLP</a>, <a href="https://aclanthology.org/2026.eacl-long.391.pdf">EACL</a>, Q1 journal in review) and 1 workshop paper at <a href="https://ceur-ws.org/Vol-4026/paper7.pdf">IIR</a>.
+        - Developed RAG evaluation metrics for AI agent consumers, improving accuracy correlation by up to 36% (<a href="https://aclanthology.org/2026.eacl-long.391.pdf">EACL</a>).
         - Collaborated with senior researchers on noise-robust LLM finetuning, achieving 7.5% improvement (<a href="https://aclanthology.org/2025.acl-long.892.pdf">ACL</a>).
         - Owned full RAG pipeline processing 30M+ docs with sparse/dense retrieval and context engineering strategies.
         - Trained 10+ encoder/decoder-based re-rankers (500M-4B parameters) via multi-GPU setup, using SOTA and custom IR loss functions.
+
     - title: Teaching Assistant
       institution: Sapienza University of Rome
       location: Rome, Italy
@@ -60,14 +72,12 @@
         - Taught 12 hours of lectures to 100+ students in a Programming Techniques course.
         - Collaborated with the lead professor to design and develop programming exercises and exam materials.
 
-    - title: Workshop &mdash; Personal Aria and Digital Data Timeline
-      institution: Meta
-      location: Menlo Park, CA
-      year: Dec 2023
-      description:
-        - Participated in a three-day workshop at Meta HQ, testing <a href="https://www.projectaria.com/">Aria glasses</a> and selected to present a tutorial on their multimodal integration with personal user data.
-        - Developed a ChatGPT-based chatbot for personalized food recommendations as part of a 5-person hackathon team.
-        - Designed a RAG system for Aria-recorded menus and user preferences, resulting in a co-authored <a href="https://link.springer.com/chapter/10.1007/978-3-031-62849-8_35">paper</a>.
+    # - title: Workshop &mdash; Personal Aria and Digital Data Timeline
+    #   institution: Meta
+    #   location: Menlo Park, CA
+    #   year: Dec 2023
+    #   description:
+    #     -Ciao
 
 - title: Projects
   type: time_table
@@ -100,6 +110,11 @@
     - year: Jul 2024
       items:
         - Interviewed by <a href="https://www.zeta-alpha.com/">Zeta Alpha</a> about our paper "<a href="https://dl.acm.org/doi/10.1145/3626772.3657834">The Power of Noise</a>". Check out the video on <a href="https://www.youtube.com/watch?v=YH4GMTQ_owA">YouTube</a>.
+    - year: Dec 2023
+      items:
+        - Participated in a three-day workshop at Meta HQ, testing <a href="https://www.projectaria.com/">Aria glasses</a> and selected to present a tutorial on their multimodal integration with personal user data.
+        - Developed a ChatGPT-based chatbot for personalized food recommendations as part of a 5-person hackathon team.
+        - Designed a RAG system for Aria-recorded menus and user preferences, resulting in a co-authored <a href="https://link.springer.com/chapter/10.1007/978-3-031-62849-8_35">paper</a>.
 
 
 
